@@ -20,7 +20,7 @@ public class GenerateGeodeTrigger extends SimpleCriterionTrigger<GenerateGeodeTr
         return GenerateGeodeTrigger.Conditions.CODEC;
     }
 
-      public void trigger(ServerPlayer player) {
+    public void trigger(ServerPlayer player) {
         trigger(player, conditions -> true);
     }
 
