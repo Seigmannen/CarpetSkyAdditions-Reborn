@@ -3,7 +3,7 @@
 ### Modifying
 
 To customize the datapack,
-download the datapack from [releases](https://github.com/jsorrell/CarpetSkyAdditions/releases)
+download the datapack from [releases](https://github.com/Seigmannen/CarpetSkyAdditions-Datapack/releases)
 and edit to your liking.
 
 Disable the built-in datapack and enable your edited one instead.
@@ -261,7 +261,7 @@ Granted upon obtaining all Light Sources in the following list:
 - Beacon
 - Conduit
 - Dragon Egg
-- Cobber Bulb and all it's variants
+- Copper Bulb and all it's variants
 
 ---
 
@@ -306,7 +306,7 @@ Music discs must be clicked onto a Jukebox, not hoppered in.
 
 Completing rewards *Dune Armor Trim Smithing Template*
 
-An exact replica Desert Pyramid must be built as described [here](https://minecraft.fandom.com/wiki/Desert_pyramid/Structure).
+An exact replica Desert Pyramid must be built as described [here](https://minecraft.wiki/w/Desert_Pyramid/Structure).
 The structure can face any direction. Only layers from the Blue Terracotta layer to the top matter.
 
 The advancement is granted when a Husk is sacrificed on the Blue Terracotta in the center of the pyramid.
