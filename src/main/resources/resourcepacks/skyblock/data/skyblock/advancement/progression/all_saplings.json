@@ -1,4 +1,5 @@
 {
+  "parent": "skyblock:progression/wandering_trader",
   "display": {
     "icon": {
       "id": "minecraft:jungle_sapling"
@@ -11,8 +12,19 @@
     },
     "frame": "goal"
   },
-  "parent": "skyblock:progression/wandering_trader",
   "criteria": {
+    "oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_sapling"
+            ]
+          }
+        ]
+      }
+    },
     "spruce": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -85,13 +97,13 @@
         ]
       }
     },
-    "oak": {
+    "mangrove": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:oak_sapling"
+              "minecraft:mangrove_propagule"
             ]
           }
         ]
@@ -104,18 +116,6 @@
           {
             "items": [
               "minecraft:pale_oak_sapling"
-            ]
-          }
-        ]
-      }
-    },
-    "mangrove": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mangrove_propagule"
             ]
           }
         ]

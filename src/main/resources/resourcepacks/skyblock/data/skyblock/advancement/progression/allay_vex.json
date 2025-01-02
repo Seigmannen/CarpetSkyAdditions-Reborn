@@ -1,4 +1,5 @@
 {
+  "parent": "skyblock:progression/emerald",
   "display": {
     "icon": {
       "id": "minecraft:note_block"
@@ -9,9 +10,9 @@
     "description": {
       "translate": "Convert a Vex into an Allay by playing it the right Note Block sequence"
     },
-    "frame": "challenge"
+    "frame": "challenge",
+    "hidden": true
   },
-  "parent": "skyblock:progression/emerald",
   "criteria": {
     "allay_vex": {
       "trigger": "carpetskyadditions:allay_vex"
