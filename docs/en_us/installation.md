@@ -6,12 +6,11 @@
 - Download [fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files),
   [fabric-carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files),
   [cloth-config](https://www.curseforge.com/minecraft/mc-mods/cloth-config/files/all?filter-game-version=2020709689%3A7499),
-  and [Carpet Sky Additions](https://github.com/jsorrell/CarpetSkyAdditions/releases)
+  and [Carpet Sky Additions](https://github.com/Seigmannen/CarpetSkyAdditions-Reborn)
 - Place downloaded mods into `<minecraft-directory>/mods/`
 - Start Minecraft and `Create New World`
 - Set Allow Cheats to `ON` so you will be able to enable/disable mod features
-- Enable the Datapack `carpetskyadditions/skyblock`
-- Optionally enable the Datapack `carpetskyadditions/skyblock_acacia` for an Acacia Tree start
+- Enable the Datapack `carpetskyadditions/skyblock`, or `carpetskyadditions/skyblock_acacia` for an Acacia Tree start
 - Click on `More World Options...`
 - Choose `World Type: SkyBlock`
 - Create the World
@@ -24,14 +23,13 @@ The mod is only required server-side.
 - Download [fabric-api](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files),
   [fabric-carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files),
   [cloth-config](https://www.curseforge.com/minecraft/mc-mods/cloth-config/files),
-  and [Carpet Sky Additions](https://github.com/jsorrell/CarpetSkyAdditions/releases)
+  and [Carpet Sky Additions](https://github.com/Seigmannen/CarpetSkyAdditions-Reborn)
 - Place downloaded mods into `<server-directory>/mods/`
 - Start the server to generate a template `server.properties` and `eula.txt` file
 - Agree to the EULA
 - Open `server.properties`
 - Change `level-type=minecraft\:normal` to `level-type=carpetskyadditions\:skyblock`
-- Move `carpetskyadditions\:skyblock` from `initial-disabled-packs` to `initial-enabled-packs`
-- Optionally move `carpetskyadditions\:skyblock_acacia` from `initial-disabled-packs` to `initial-enabled-packs` for an
+- Move `carpetskyadditions\:skyblock` from `initial-disabled-packs` to `initial-enabled-packs`, or `carpetskyadditions\:skyblock_acacia` from `initial-disabled-packs` to `initial-enabled-packs` for an
   Acacia Tree start
 - Start the server
 

@@ -158,6 +158,8 @@ When Creepers are killed by Skeletons in the Strongholds, they can drop the Musi
 
 When Creepers are killed by Skeletons in the Ancient Cities, they can drop Disc Fragment 5.
 
+When Creepers are killed by Skeletons in the Trial Chambers, they can drop the Music Discs Precipice and Creator.
+
 ---
 
 #### Zoglins Drop Snout Banner Patterns ####
@@ -259,6 +261,7 @@ Granted upon obtaining all Light Sources in the following list:
 - Beacon
 - Conduit
 - Dragon Egg
+- Cobber Bulb and all it's variants
 
 ---
 
@@ -374,3 +377,25 @@ Granted after looking through a Spyglass at all animals in the following list:
 - Strider
 - Turtle
 - Wolf
+
+---
+
+#### Lightning Conqueror ####
+
+Completing rewards *Bolt Armor Trim Smithing Template*
+
+Use a channeling trident, during thunderstorm, to turn/kill:
+
+ - Creeper/Charged Creeper
+ - Guardian/Elder Guardian
+ - Mooshroom/Brown Mooshrom
+ - Pig/Zombified Piglin
+ - Villager/Witch
+
+ ---
+
+ #### Harnessing the Flow ####
+
+Completing rewards *Flow Armor Trim Smithing Template*
+
+Use a riptide trident under the influence of a conduit during rain.
