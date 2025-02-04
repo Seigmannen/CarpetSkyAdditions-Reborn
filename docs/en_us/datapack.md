@@ -3,7 +3,7 @@
 ### Modifying
 
 To customize the datapack,
-download the datapack from [releases](https://github.com/jsorrell/CarpetSkyAdditions/releases)
+download the datapack from [releases](https://github.com/Seigmannen/CarpetSkyAdditions-Datapack/releases)
 and edit to your liking.
 
 Disable the built-in datapack and enable your edited one instead.
@@ -158,6 +158,8 @@ When Creepers are killed by Skeletons in the Strongholds, they can drop the Musi
 
 When Creepers are killed by Skeletons in the Ancient Cities, they can drop Disc Fragment 5.
 
+When Creepers are killed by Skeletons in the Trial Chambers, they can drop the Music Discs Precipice and Creator.
+
 ---
 
 #### Zoglins Drop Snout Banner Patterns ####
@@ -259,6 +261,7 @@ Granted upon obtaining all Light Sources in the following list:
 - Beacon
 - Conduit
 - Dragon Egg
+- Copper Bulb and all it's variants
 
 ---
 
@@ -303,7 +306,7 @@ Music discs must be clicked onto a Jukebox, not hoppered in.
 
 Completing rewards *Dune Armor Trim Smithing Template*
 
-An exact replica Desert Pyramid must be built as described [here](https://minecraft.fandom.com/wiki/Desert_pyramid/Structure).
+An exact replica Desert Pyramid must be built as described [here](https://minecraft.wiki/w/Desert_Pyramid/Structure).
 The structure can face any direction. Only layers from the Blue Terracotta layer to the top matter.
 
 The advancement is granted when a Husk is sacrificed on the Blue Terracotta in the center of the pyramid.
@@ -374,3 +377,25 @@ Granted after looking through a Spyglass at all animals in the following list:
 - Strider
 - Turtle
 - Wolf
+
+---
+
+#### Lightning Conqueror ####
+
+Completing rewards *Bolt Armor Trim Smithing Template*
+
+Use a channeling trident, during thunderstorm, to turn/kill:
+
+ - Creeper/Charged Creeper
+ - Guardian/Elder Guardian
+ - Mooshroom/Brown Mooshrom
+ - Pig/Zombified Piglin
+ - Villager/Witch
+
+ ---
+
+ #### Harnessing the Flow ####
+
+Completing rewards *Flow Armor Trim Smithing Template*
+
+Use a riptide trident under the influence of a conduit during rain.

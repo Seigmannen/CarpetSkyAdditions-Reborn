@@ -5,7 +5,7 @@
 Carpet Sky Additions Reborn is a mod based on CarpetSkyAdditions
 [View the original mod here](https://github.com/jsorrell/CarpetSkyAdditions/issues)
 
-## Try the mod on sky.hardcoreanarchy.gay
+#
 
 Carpet Sky Additions is a module for [fabric-carpet](https://github.com/gnembon/fabric-carpet)
 originally based on [skyrising/skyblock](https://github.com/skyrising/skyblock).
@@ -24,9 +24,11 @@ client.
 
 To create a new SkyBlock world, choose `World Type: SkyBlock` and enable the datapack `"carpetskyadditions/skyblock"`.
 
-If you want a harder challenge, ***also*** enable the datapack `"carpetskyadditions/skyblock_acacia"` to start with an
+If you want a harder challenge, enable the datapack `"carpetskyadditions/skyblock_acacia"` to start with an
 Acacia
 tree instead of an Oak tree.
+
+Enable only one datapack.
 
 For custom or server installations, follow the [Detailed Installation Instructions](docs/en_us/installation.md)
 
@@ -90,15 +92,10 @@ If you are able to add translations, your help would be much appreciated.
 
 - [@gnembon](https://github.com/gnembon/fabric-carpet) for `fabric-carpet`
 
+- [@TreeOfSelf](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn) for keeping the mod updated
 - All the translators on CrowdIn
 
 ## License
 
 This project is licensed under the terms of the MIT license.
-
-
-## Notable Contributors
-- [Seigmannen](https://github.com/Seigmannen) (Code/Datapack/Testing)
-- [cputnam-a11y](https://github.com/cputnam-a11y/) (Mixin improvements)
-
 
