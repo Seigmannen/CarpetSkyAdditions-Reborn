@@ -79,6 +79,19 @@
             },
             {
               "type": "minecraft:tag",
+              "name": "skyblock:creeper_drop_music_discs_trial_chambers",
+              "expand": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "structures": "minecraft:trial_chambers"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:tag",
               "name": "minecraft:creeper_drop_music_discs",
               "expand": true
             }
