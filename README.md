@@ -1,11 +1,12 @@
 ![image](https://github.com/user-attachments/assets/bd211a15-8baa-43b8-a193-fff17e14e9c3)
 
-# Carpet Sky Additions Reborn
+# Carpet Sky Additions Reborn More Mob Heads
 
-Carpet Sky Additions Reborn is a mod based on CarpetSkyAdditions
-[View the original mod here](https://github.com/jsorrell/CarpetSkyAdditions/issues)
+Carpet Sky Additions Reborn is a mod based on CarpetSkyAdditions.
 
-## Try the mod on sky.hardcoreanarchy.gay
+This version includes an edited version of the Vanilla Tweaks More Mob Heads.
+
+[View the original mod here](https://github.com/jsorrell/CarpetSkyAdditions/)
 
 Carpet Sky Additions is a module for [fabric-carpet](https://github.com/gnembon/fabric-carpet)
 originally based on [skyrising/skyblock](https://github.com/skyrising/skyblock).
@@ -79,11 +80,11 @@ If you get stuck, a general progression walkthrough is available [here](docs/en_
 
 ### Fixing Old Trial Spawners / Vaults
 
-If you have old <=1.21.1 Trial Spawners / Vaults from an older version of this mod that aren't working properly    
-You can use [mcaselector](https://github.com/Querz/mcaselector) to fix them.   
-Simply download the mcaselector.jar, place it next to your world folder, and run it in a command-line using this command:  
+If you have old <=1.21.1 Trial Spawners / Vaults from an older version of this mod that aren't working properly
+You can use [mcaselector](https://github.com/Querz/mcaselector) to fix them.
+Simply download the mcaselector.jar, place it next to your world folder, and run it in a command-line using this command:
 
-`java -jar /usr/local/bin/mcaselector.jar --mode delete --world 'world' --query 'Palette contains "trial_spawner" OR Palette contains "vault"'`    
+`java -jar /usr/local/bin/mcaselector.jar --mode delete --world 'world' --query 'Palette contains "trial_spawner" OR Palette contains "vault"'`
 *Note: This will completely delete any chunks containing vaults/trial spawners so they can be regenerated. Use with caution.*
 
 ## Translations
@@ -100,15 +101,12 @@ If you are able to add translations, your help would be much appreciated.
 
 - [@gnembon](https://github.com/gnembon/fabric-carpet) for `fabric-carpet`
 
+- [@TreeOfSelf](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn) for keeping the mod updated
+
+- [Vanilla Tweaks](https://vanillatweaks.net) for the More Mob Heads Datapack
+
 - All the translators on CrowdIn
 
 ## License
 
 This project is licensed under the terms of the MIT license.
-
-
-## Notable Contributors
-- [Seigmannen](https://github.com/Seigmannen) (Code/Datapack/Testing)
-- [cputnam-a11y](https://github.com/cputnam-a11y/) (Mixin improvements)
-
-
