@@ -3,9 +3,7 @@
 # Carpet Sky Additions Reborn
 
 Carpet Sky Additions Reborn is a mod based on CarpetSkyAdditions
-[View the original mod here](https://github.com/jsorrell/CarpetSkyAdditions/issues)
-
-## Try the mod on sky.hardcoreanarchy.gay
+[View the original mod here](https://github.com/jsorrell/CarpetSkyAdditions/)
 
 Carpet Sky Additions is a module for [fabric-carpet](https://github.com/gnembon/fabric-carpet)
 originally based on [skyrising/skyblock](https://github.com/skyrising/skyblock).
@@ -79,11 +77,11 @@ If you get stuck, a general progression walkthrough is available [here](docs/en_
 
 ### Fixing Old Trial Spawners / Vaults
 
-If you have old <=1.21.1 Trial Spawners / Vaults from an older version of this mod that aren't working properly    
-You can use [mcaselector](https://github.com/Querz/mcaselector) to fix them.   
-Simply download the mcaselector.jar, place it next to your world folder, and run it in a command-line using this command:  
+If you have old <=1.21.1 Trial Spawners / Vaults from an older version of this mod that aren't working properly
+You can use [mcaselector](https://github.com/Querz/mcaselector) to fix them.
+Simply download the mcaselector.jar, place it next to your world folder, and run it in a command-line using this command:
 
-`java -jar /usr/local/bin/mcaselector.jar --mode delete --world 'world' --query 'Palette contains "trial_spawner" OR Palette contains "vault"'`    
+`java -jar /usr/local/bin/mcaselector.jar --mode delete --world 'world' --query 'Palette contains "trial_spawner" OR Palette contains "vault"'`
 *Note: This will completely delete any chunks containing vaults/trial spawners so they can be regenerated. Use with caution.*
 
 ## Translations
@@ -100,15 +98,10 @@ If you are able to add translations, your help would be much appreciated.
 
 - [@gnembon](https://github.com/gnembon/fabric-carpet) for `fabric-carpet`
 
+- [@TreeOfSelf](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn) for keeping the mod updated
+
 - All the translators on CrowdIn
 
 ## License
 
 This project is licensed under the terms of the MIT license.
-
-
-## Notable Contributors
-- [Seigmannen](https://github.com/Seigmannen) (Code/Datapack/Testing)
-- [cputnam-a11y](https://github.com/cputnam-a11y/) (Mixin improvements)
-- [XieLong55](https://github.com/XieLong55) (Simplified Chinese Translation Updates)
-
