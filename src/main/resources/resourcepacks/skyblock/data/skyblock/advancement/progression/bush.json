@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "skyblock:progression/water_bucket",
+  "parent": "skyblock:progression/dead_bush",
   "criteria": {
     "bush": {
       "trigger": "carpetskyadditions:bush"
