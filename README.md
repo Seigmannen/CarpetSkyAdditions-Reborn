@@ -1,8 +1,11 @@
 ![image](https://github.com/user-attachments/assets/bd211a15-8baa-43b8-a193-fff17e14e9c3)
 
-# Carpet Sky Additions Reborn
+# Carpet Sky Additions Reborn More Mob Heads
 
-Carpet Sky Additions Reborn is a mod based on CarpetSkyAdditions
+Carpet Sky Additions Reborn is a mod based on CarpetSkyAdditions.
+
+This version includes an edited version of the Vanilla Tweaks More Mob Heads.
+
 [View the original mod here](https://github.com/jsorrell/CarpetSkyAdditions/)
 
 Carpet Sky Additions is a module for [fabric-carpet](https://github.com/gnembon/fabric-carpet)
@@ -99,6 +102,8 @@ If you are able to add translations, your help would be much appreciated.
 - [@gnembon](https://github.com/gnembon/fabric-carpet) for `fabric-carpet`
 
 - [@TreeOfSelf](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn) for keeping the mod updated
+
+- [Vanilla Tweaks](https://vanillatweaks.net) for the More Mob Heads Datapack
 
 - All the translators on CrowdIn
 
