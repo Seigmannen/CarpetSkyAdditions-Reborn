@@ -207,7 +207,7 @@ Provides *Bushes*
 
 Disable with ```/carpetskyadditions removeDefault doDeadBushToBush```
 
-Using a water bottle on a deadh bush turns it into a bush. 
+Using a water bottle on a dead bush turns it into a bush. 
 
 ---
 
