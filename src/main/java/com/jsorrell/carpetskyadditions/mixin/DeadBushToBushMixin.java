@@ -43,10 +43,25 @@ public class DeadBushToBushMixin {
             if (potionContents.is(Potions.WATER)) {
                 Level level = context.getLevel();
                 BlockPos blockPos = context.getClickedPos();
+                BlockPos belowPos = blockPos.below();
                 Player playerEntity = context.getPlayer();
                 BlockState blockState = level.getBlockState(blockPos);
+                BlockState belowState = level.getBlockState(belowPos);
 
-                if (context.getClickedFace() != Direction.DOWN && blockState.is(Blocks.DEAD_BUSH)) {
+                if (context.getClickedFace() != Direction.DOWN && 
+                    blockState.is(Blocks.DEAD_BUSH) &&
+                    (belowState.is(Blocks.DIRT) ||
+                     belowState.is(Blocks.PODZOL) ||
+                     belowState.is(Blocks.MUD) ||
+                     belowState.is(Blocks.GRASS_BLOCK) ||
+                     belowState.is(Blocks.ROOTED_DIRT) ||
+                     belowState.is(Blocks.COARSE_DIRT) ||
+                     belowState.is(Blocks.FARMLAND) ||
+                     belowState.is(Blocks.MUDDY_MANGROVE_ROOTS) ||
+                     belowState.is(Blocks.MYCELIUM) ||
+                     belowState.is(Blocks.MOSS_BLOCK) ||
+                     belowState.is(Blocks.PALE_MOSS_BLOCK))) {
+                    
                     level.playSound(null, blockPos, SoundEvents.GENERIC_SPLASH, SoundSource.PLAYERS, 1.0f, 1.0f);
                     Objects.requireNonNull(playerEntity)
                         .setItemInHand(
@@ -54,7 +69,7 @@ public class DeadBushToBushMixin {
                             ItemUtils.createFilledResult(
                                 itemStack, playerEntity, new ItemStack(Items.GLASS_BOTTLE)));
                     playerEntity.awardStat(Stats.ITEM_USED.get(itemStack.getItem()));
-                    level.setBlock(blockPos, Blocks.BUSH.defaultBlockState(),0);
+                    level.setBlock(blockPos, Blocks.BUSH.defaultBlockState(), 0);
 
                     AABB criteriaTriggerBox = new AABB(blockPos).inflate(50, 20, 50);
                     level.getEntitiesOfClass(ServerPlayer.class, criteriaTriggerBox)
